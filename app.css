@@ -1,0 +1,123 @@
+body{
+    background-color: grey;
+}
+
+ul{
+   margin: 0%;
+   padding: 0%;
+   list-style: none;
+  
+   display: flex;
+}
+li{
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    background-size: 50px;
+    line-height: 100%;
+}
+a{
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+   
+}
+li:hover{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    background-color: turquoise;
+    background-size:cover ;
+
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+   
+}
+
+
+
+.row{
+margin-top: 300px; 
+margin-bottom: 200px;
+margin-left: 250px;
+margin-right: 250px;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.column{
+    margin-right: 10px ;
+    margin-top: 10px ;
+    width: 200px;
+    height: 325px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+.column:hover{
+    box-shadow: 8px 8px 8px rgb(24, 57, 221);
+    height: fit-content;
+    width: fit-content;
+    float: left;
+   
+}
+.active{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5%;
+    height: 123px;
+    overflow: hidden;
+    font-size: large;
+    transition: 2s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    text-transform: capitalize;
+  
+}
+.active:hover{
+     height: fit-content;
+      width: fit-content;
+      float: left;
+}
+img{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 6px 6px 6px  grey;
+}
+img:hover{
+    border-radius: 20%;
+    
+}
+
+
+
+  
+
+
+
+.column a{
+    color: blue;
+    font-size: larger;
+   
+    
+}
+.column a:hover{
+    color: red;
+}
+
