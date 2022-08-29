@@ -153,4 +153,6 @@ img:hover{
 .column a:hover{
     color: red;
 }
-
+.privacy{
+    background-color: burlywood;
+}
