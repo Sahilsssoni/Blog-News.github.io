@@ -8,12 +8,12 @@ ul{
    list-style: none;
    background-color: brown;
    display: flex;
-   height: 60px;
+   height: 60vh;
 }
 li{
    
-    margin: 5px;
-    padding: 5px;
+    margin: 5vh;
+    padding: 5vh;
     background-size: 50px;
     line-height: 100%;
 }
@@ -38,13 +38,13 @@ h1{
     background-color: turquoise;
     background-size:cover ;
     color: aliceblue;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 100px;
-    line-height: 50px;
+    margin-left: 350vh;
+    margin-right: 350vh;
+    margin-top: 100vh;
+    line-height: 50vh;
     font-size: xx-large;
-    text-shadow: 10ch 10ch 10ch black;
-    box-shadow: 6px 6px 5px black;
+    text-shadow: 10vh 10vh 10vh black;
+    box-shadow: 6vh 6vh 5vh black;
     display: flex;
     flex-wrap: wrap;
 
@@ -56,33 +56,33 @@ h1{
 
 
 .row{
-margin-top: 300px; 
-margin-bottom: 200px;
-margin-left: 150px;
-margin-right: 250px;
+margin-top: 300vh; 
+margin-bottom: 200vh;
+margin-left: 150vh;
+margin-right: 250vh;
 
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
 .column{
-    margin-right: 10px ;
-    margin-top: 10px ;
-    width: 200px;
-    height: 325px;
+    margin-right: 10vh ;
+    margin-top: 10vh ;
+    width: 200vh;
+    height: 325vh;
     background-color: rgb(255, 255, 255);
     text-align: center;
    overflow: hidden;
 }
 .border{
     background-color:  rgb(255, 255, 255);
-    height: 350px;
-    width: 230px;
-    margin: 5px;
-    padding: 10px;
-    padding-left: 35px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    height: 350vh;
+    width: 230vh;
+    margin: 5vh;
+    padding: 10vh;
+    padding-left: 35vh;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
 }
 a.readmore{
     color: blue;
@@ -93,10 +93,10 @@ a.readmore{
 
 .active{
     text-align: left;
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 20vh;
+    margin-right: 10vh;
     margin-top: 5%;
-    height: 123px;
+    height: 123vh;
     overflow: hidden;
     font-size: large;
     transition: 2s;
@@ -106,9 +106,9 @@ a.readmore{
   
 }
 .box{
-    margin: -10px;
-    height: 1050px;
-    width: 1600px;
+    margin: -10vh;
+    height: 1050vh;
+    width: 1600vh;
     background-color: white;
 }
 .text{
@@ -122,16 +122,16 @@ margin-right: 10%;
 
 }
 .image{
-    height: 200px;
-    width: 200px;
+    height: 200vh;
+    width: 200vh;
     margin-top: 5%;
     margin-left: 20%;
 }
 img{
-    margin-top: 20px;
-    height: 150px;
-    width: 150px;
-    box-shadow: 6px 6px 6px  grey;
+    margin-top: 20vh;
+    height: 150vh;
+    width: 150vh;
+    box-shadow: 6vh 6vh 6vh grey;
 }
 img:hover{
     border-radius: 20%;
