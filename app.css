@@ -8,12 +8,12 @@ ul{
    list-style: none;
    background-color: brown;
    display: flex;
-   height: 60vh;
+   height: 60px;
 }
 li{
    
-    margin: 5vh;
-    padding: 5vh;
+    margin: 5px;
+    padding: 5px;
     background-size: 50px;
     line-height: 100%;
 }
@@ -38,13 +38,13 @@ h1{
     background-color: turquoise;
     background-size:cover ;
     color: aliceblue;
-    margin-left: 350vh;
-    margin-right: 350vh;
-    margin-top: 100vh;
-    line-height: 50vh;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    line-height: 50px;
     font-size: xx-large;
     text-shadow: 10vh 10vh 10vh black;
-    box-shadow: 6vh 6vh 5vh black;
+    box-shadow: 6px 6px 5px black;
     display: flex;
     flex-wrap: wrap;
 
@@ -56,33 +56,33 @@ h1{
 
 
 .row{
-margin-top: 300vh; 
-margin-bottom: 200vh;
-margin-left: 150vh;
-margin-right: 250vh;
+margin-top: 300px; 
+margin-bottom: 200px;
+margin-left: 150px;
+margin-right: 250px;
 
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
-.column{
-    margin-right: 10vh ;
-    margin-top: 10vh ;
-    width: 200vh;
-    height: 325vh;
+.columpx{
+    margin-right: 10px ;
+    margin-top: 10px ;
+    width: 200px;
+    height: 325px;
     background-color: rgb(255, 255, 255);
     text-align: center;
    overflow: hidden;
 }
 .border{
     background-color:  rgb(255, 255, 255);
-    height: 350vh;
-    width: 230vh;
-    margin: 5vh;
-    padding: 10vh;
-    padding-left: 35vh;
-    padding-top: 35vh;
-    padding-bottom: 35vh;
+    height: 350px;
+    width: 230px;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 a.readmore{
     color: blue;
@@ -93,10 +93,10 @@ a.readmore{
 
 .active{
     text-align: left;
-    margin-left: 20vh;
-    margin-right: 10vh;
+    margin-left: 20px;
+    margin-right: 10px;
     margin-top: 5%;
-    height: 123vh;
+    height: 123px;
     overflow: hidden;
     font-size: large;
     transition: 2s;
@@ -106,9 +106,9 @@ a.readmore{
   
 }
 .box{
-    margin: -10vh;
-    height: 1050vh;
-    width: 1600vh;
+    margin: -10px;
+    height: 1050px;
+    width: 1600px;
     background-color: white;
 }
 .text{
@@ -117,21 +117,22 @@ font-size: large;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 400;
 text-transform: capitalize;
-margin-left: 20%;
-margin-right: 10%;
+
+margin-left: 10%;
+margin-right: 50%;
 
 }
 .image{
-    height: 200vh;
-    width: 200vh;
-    margin-top: 5%;
-    margin-left: 20%;
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 img{
-    margin-top: 20vh;
-    height: 150vh;
-    width: 150vh;
-    box-shadow: 6vh 6vh 6vh grey;
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 6px 6px 6px grey;
 }
 img:hover{
     border-radius: 20%;
@@ -155,4 +156,103 @@ img:hover{
 }
 .privacy{
     background-color: burlywood;
+}
+
+
+@media screen and (max-width:600px)
+{
+    body{
+        background-color: grey;
+    }
+    ul{
+        margin: 0%;
+        padding: 0%;
+        list-style: none;
+        background-color: brown;
+        display: flex;
+        height: 30px;
+     }
+     li{
+   
+    margin: 2px;
+    padding: 2px;
+    background-size: 25px;
+    line-height: 100%;
+}
+a{
+    color: aliceblue;
+    line-height: 95%;
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+   
+}
+h1{
+    text-align: center;
+    background-color: turquoise;
+    background-size:cover ;
+    color: aliceblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    line-height: 25px;
+    font-size: large;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 6px 6px 5px black;
+    display: flex;
+    flex-wrap: wrap;
+
+    font-weight: bolder;
+    font-style: italic;
+   
+}
+.row{
+    margin-top: 250px; 
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 150px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .columpx{
+        margin-right: 5px ;
+        margin-top: 5px ;
+        width: 500px;
+        height: 170px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+       overflow: hidden;
+    }
+    .border{
+        background-color:  rgb(255, 255, 255);
+        height: 350px;
+        width: 230px;
+        margin: 5px;
+        padding: 10px;
+        padding-left: 35px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .text{
+        align-items: center;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-right: 22%;
+        margin-left: 10%;
+        margin-right: 50%;
+        
+        }
+       
+
 }
