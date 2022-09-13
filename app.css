@@ -159,7 +159,7 @@ img:hover{
 }
 
 
-@media screen and (max-width:600px)
+@media screen and (max-width:400px)
 {
     body{
         background-color: grey;
@@ -170,7 +170,7 @@ img:hover{
         list-style: none;
         background-color: brown;
         display: flex;
-        height: 30px;
+        height: 25px;
      }
      li{
    
@@ -186,7 +186,7 @@ a{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 200;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -199,10 +199,10 @@ h1{
     background-color: turquoise;
     background-size:cover ;
     color: aliceblue;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 50px;
-    line-height: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    line-height: 15px;
     font-size: large;
     text-shadow: 5px 5px 5px black;
     box-shadow: 6px 6px 5px black;
@@ -214,10 +214,10 @@ h1{
    
 }
 .row{
-    margin-top: 250px; 
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 150px;
+    margin-top: 150px; 
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
     
     display: flex;
     flex-wrap: wrap;
@@ -226,16 +226,16 @@ h1{
     .columpx{
         margin-right: 5px ;
         margin-top: 5px ;
-        width: 500px;
-        height: 170px;
+        width: 250px;
+        height: 100px;
         background-color: rgb(255, 255, 255);
         text-align: center;
        overflow: hidden;
     }
     .border{
         background-color:  rgb(255, 255, 255);
-        height: 350px;
-        width: 230px;
+        height: 250px;
+        width: 130px;
         margin: 5px;
         padding: 10px;
         padding-left: 35px;
