@@ -203,7 +203,7 @@ h1{
     margin-right: 100px;
     margin-top: 30px;
     line-height: 15px;
-    font-size: large;
+    font-size: medium;
     text-shadow: 5px 5px 5px black;
     box-shadow: 6px 6px 5px black;
     display: flex;
@@ -216,8 +216,8 @@ h1{
 .row{
     margin-top: 150px; 
     margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 40px;
+    margin-right: 50px;
     
     display: flex;
     flex-wrap: wrap;
@@ -226,16 +226,16 @@ h1{
     .columpx{
         margin-right: 5px ;
         margin-top: 5px ;
-        width: 250px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
         background-color: rgb(255, 255, 255);
         text-align: center;
        overflow: hidden;
     }
     .border{
         background-color:  rgb(255, 255, 255);
-        height: 250px;
-        width: 130px;
+        height: 300px;
+        width: 150px;
         margin: 5px;
         padding: 10px;
         padding-left: 35px;
@@ -246,7 +246,7 @@ h1{
         align-items: center;
         font-size: large;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 400;
+        font-weight: 300;
         text-transform: capitalize;
         padding-right: 22%;
         margin-left: 10%;
