@@ -163,6 +163,8 @@ img:hover{
 {
     body{
         background-color: grey;
+        background-size: auto;
+
     }
     ul{
         margin: 0%;
@@ -257,7 +259,7 @@ h1{
         .box{
             margin: -10px;
             height: 5000px;
-            width: max-content;
+            width: 15050px;
             background-color: white;
         } 
 
