@@ -254,6 +254,11 @@ h1{
         margin-right: 50%;
         
         }
-       
+        .box{
+            margin: -10px;
+            height: 1150px;
+            width: 1000px;
+            background-color: white;
+        } 
 
 }
