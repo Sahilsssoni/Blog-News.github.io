@@ -250,14 +250,14 @@ h1{
         font-weight: 300;
         text-transform: capitalize;
         padding-right: 22%;
-        margin-left: 10%;
+        margin-left: 3%;
         margin-right: 50%;
         
         }
         .box{
             margin: -10px;
             height: 1850px;
-            width: 1000px;
+            width: 1500px;
             background-color: white;
         } 
 
