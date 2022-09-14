@@ -256,8 +256,8 @@ h1{
         }
         .box{
             margin: -10px;
-            height: max-content;
-            width: 1500px;
+            height: 5000px;
+            width: fit-content;
             background-color: white;
         } 
 
